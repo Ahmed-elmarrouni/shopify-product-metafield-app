@@ -17,5 +17,5 @@ Add a theme app extension that injects a Liquid snippet on the product page to d
 
 ---
 
-### [> My Setup & Development Log <](./README/first.md)
+### [> My Setup & Development Log](./README/first.md)
 
