@@ -1,4 +1,20 @@
-import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
+import {
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from "react-router";
+import type { LinksFunction } from "react-router";
+
+// I create CSS file for better style management
+import polarisStyles from "@shopify/polaris/build/esm/styles.css?url";
+import appStyles from "./styles/app-index.css?url";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: polarisStyles },
+  { rel: "stylesheet", href: appStyles },
+];
 
 export default function App() {
   return (

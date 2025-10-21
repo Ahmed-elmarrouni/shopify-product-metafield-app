@@ -1,0 +1,44 @@
+
+.page {
+    padding: 20px clamp(12px, 3vw, 28px);
+    margin: 0 auto;
+}
+
+.header-text .Polaris-Text+.Polaris-Text {
+    margin-top: 2px;
+}
+
+.tags-wrap {
+    max-width: min(680px, 100%);
+}
+
+.product-box {
+    max-height: 340px;
+    overflow: auto;
+    border: 1px solid rgba(140, 145, 150, 0.24);
+    border-radius: 12px;
+    padding: 6px;
+    background: #fff;
+}
+
+.product-box .Polaris-ResourceItem {
+    border-radius: 10px;
+}
+
+.product-box .Polaris-ResourceItem:hover {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.thumb img {
+    border-radius: 8px;
+}
+
+.actions {
+    width: 100%;
+}
+
+@media (max-width: 560px) {
+    .actions {
+        width: 100%;
+    }
+}
