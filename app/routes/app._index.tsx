@@ -46,7 +46,7 @@ export const action = async ({ request }: ActionFunctionArgs) => {
 
   const NAMESPACE = "product_metafield_app";
   const KEY = "custom_info";
-  const TYPE = "string";
+  const TYPE = "single_line_text_field";
 
   const errors: Array<{ field?: string[]; message: string }> = [];
 

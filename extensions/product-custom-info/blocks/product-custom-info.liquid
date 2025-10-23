@@ -1,0 +1,20 @@
+{%- comment -%}
+Renders product_metafield_app.custom_info (typed: single_line_text_field)
+{%- endcomment -%}
+
+{%- assign info = product.metafields.product_metafield_app.custom_info.value -%}
+{%- if info != blank -%}
+  <div class="app-product-custom-info">
+    {{ info | escape }}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Product custom info",
+  "target": "section",
+  "enabled_on": { "templates": ["product"] },
+  "stylesheet": "custom-info.css",
+  "settings": []
+}
+{% endschema %}

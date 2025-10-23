@@ -21,3 +21,6 @@ Add a theme app extension that injects a Liquid snippet on the product page to d
 
 
 ### [> Product Metafields UI with Polaris + resource picker](./README/second.md)
+
+
+### [> Add 'product-custom-info' theme extension to display product metafield](README/third.md)
